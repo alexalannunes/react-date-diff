@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Date diff",
+  "name": "Calculate date diff",
   "icons": [
     {
       "src": "favicon.ico",
