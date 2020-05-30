@@ -9,7 +9,7 @@ export default class App extends React.Component {
   state = {
     date1: null,
     date2: null,
-    diff: null
+    diff: null,
   };
 
   componentDidMount() {}
@@ -30,7 +30,7 @@ export default class App extends React.Component {
                 this.setState({ date1: ds }, () => {
                   this.state.date2 &&
                     this.setState({
-                      diff: moment.preciseDiff(this.state.date2, ds)
+                      diff: moment.preciseDiff(this.state.date2, ds),
                     });
                 });
               }}
@@ -42,7 +42,7 @@ export default class App extends React.Component {
                 this.setState({ date2: ds }, () => {
                   this.state.date1 &&
                     this.setState({
-                      diff: moment.preciseDiff(this.state.date1, ds)
+                      diff: moment.preciseDiff(this.state.date1, ds),
                     });
                 });
               }}
