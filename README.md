@@ -6,6 +6,9 @@
 https://datediff.netlify.app/
 
 
+### AWS Amplify
+https://master.dps7fr35nfngz.amplifyapp.com/
+
 `git clone https://github.com/alexalannunes/react-date-diff.git`
 
 `cd react-date-diff`
